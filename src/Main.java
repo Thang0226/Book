@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
 	public static void main(String[] args) {
 		Book[] books = new Book[6];
@@ -14,7 +16,8 @@ public class Main {
 		}
 		System.out.println("Total book price: " + total);
 
-		System.out.println("Books that have price over 1000:");
+		System.out.println("Books that have price over 1000: ");
+		System.out.print("\t");
 		for (Book book : books) {
 			if (book.getPrice() > 1000) {
 				System.out.print(book.getBookName() + "; ");
