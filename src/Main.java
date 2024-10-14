@@ -3,12 +3,12 @@ import java.util.Arrays;
 public class Main {
 	public static void main(String[] args) {
 		Book[] books = new Book[6];
-		books[0] = new Book("123", "abc", 456, "Thang");
-		books[1] = new Book("456", "cde", 789, "Tri");
-		books[2] = new Book("789", "ghi", 1234, "Dung");
-		books[3] = new Book("1234", "jkl", 1500, "Vinh");
-		books[4] = new Book("1500", "mno", 2345, "Nhat");
-		books[5] = new Book("2345", "pqr", 6789, "Loc");
+		books[0] = new Book("123", "Abc", 456, "Thang");
+		books[1] = new Book("456", "Cde", 789, "Tri");
+		books[2] = new Book("789", "Ghi", 1234, "Dung");
+		books[3] = new Book("1234", "Jkl", 1500, "Vinh");
+		books[4] = new Book("1500", "Mno", 2345, "Nhat");
+		books[5] = new Book("2345", "Pqr", 6789, "Loc");
 
 		float total = 0;
 		for (Book book : books) {
